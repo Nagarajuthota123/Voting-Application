@@ -29,20 +29,18 @@ Install Docker Desktop
 Enable Kubernetes in Docker Desktop settings
 Install kubectl
 🚀 Deployment Steps
-# Clone repository
-git clone <your-repo-url>
-cd <repo-folder>
+1. Clone repository
 
-# Apply Kubernetes manifests
+2. Apply Kubernetes manifests
 kubectl apply -f k8s/
 
-# Verify pods
+3. Verify pods
 kubectl get pods
 
-# Verify services
+4. Verify services
 kubectl get svc
 
-# Verify ingress
+5. Verify ingress
 kubectl get ingress
 🌐 Access Application
 If using Ingress:
