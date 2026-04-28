@@ -42,6 +42,8 @@ kubectl get svc
 
 5. Verify ingress
 kubectl get ingress
+
+
 🌐 Access Application
 If using Ingress:
 Add entry in hosts file:
@@ -50,21 +52,29 @@ Access:
 http://voting-app.local
 If using NodePort:
 http://localhost:<nodeport>
+
+
 🔄 Application Workflow
 User submits vote via frontend
 Vote stored in Redis
 Worker processes vote
 Data saved in PostgreSQL
 Results displayed in UI
+
+
 🔍 Troubleshooting
 kubectl logs <pod-name>
 kubectl describe pod <pod-name>
 kubectl get all
+
+
 📈 Features
 Microservices architecture
 Kubernetes-based deployment
 Self-healing and scaling
-Internal & external service communication
+Internal & external service communication.
+
+
 🧠 Learnings
 Kubernetes Deployments, Services, Ingress
 Pod networking and service discovery
