@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vote-configmap
+data:
+  POSTGRES_DB: voting-db
+  REDIS_HOST: redis
