@@ -63,19 +63,19 @@ Results displayed in UI
 
 
 🔍 Troubleshooting
-kubectl logs <pod-name>
-kubectl describe pod <pod-name>
-kubectl get all
+kubectl logs <pod-name>.
+kubectl describe pod <pod-name>.
+kubectl get all.
 
 
 📈 Features
-Microservices architecture
-Kubernetes-based deployment
-Self-healing and scaling
-Internal & external service communication.
+1. Microservices architecture.
+2. Kubernetes-based deployment.
+3. Self-healing and scaling.
+4. Internal & external service communication.
 
 
 🧠 Learnings
-Kubernetes Deployments, Services, Ingress
-Pod networking and service discovery
-Debugging Kubernetes workloads
+1. Kubernetes Deployments, Services, Ingress
+2. Pod networking and service discovery
+3. Debugging Kubernetes workloads
