@@ -2,7 +2,7 @@
 🚀 Project Overview
 
 This project demonstrates deploying a microservices-based voting application on a Kubernetes cluster enabled via Docker Desktop.
-It showcases container orchestration, service communication, and traffic routing using Kubernetes.
+It showcases container orchestration, service communication, and traffic routing using Kubernetes..
 
 🏗️ Architecture
 User → Ingress → Service → Vote App
